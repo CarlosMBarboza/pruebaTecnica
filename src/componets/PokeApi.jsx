@@ -1,6 +1,6 @@
 import '../Style/PokeApi.css'
 import { useEffect, useState  } from "react"
-import DetallePokemon from "./DetallePokemon"
+
 
 
 
@@ -45,8 +45,8 @@ const PokeApi = () => {
         getPokemones()
     }, [])
     return (
-        <>
-            <DetallePokemon {...mostrar} cerrar = {noVerPokemon}/>
+        
+            
             <div>
             <h1 className="titulo">Pokedex</h1>
 
@@ -73,7 +73,7 @@ const PokeApi = () => {
                 }
             </div>
         </div>
-        </>
+        
     )
 }
 
