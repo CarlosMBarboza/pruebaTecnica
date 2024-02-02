@@ -1,3 +1,4 @@
+  Este es el link del diploy de la prueba tecnica https://whimsical-entremet-32866a.netlify.app
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
